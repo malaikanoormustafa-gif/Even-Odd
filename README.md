@@ -1,2 +1,21 @@
-# Even-Odd
-This C++ program takes an integer as input from the user and determines whether the number is odd or even. It uses the modulus operator % to check the remainder when the number is divided by 2.  If the remainder is 0, the number is even . Otherwise, the number is odd .
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+int num;
+
+    cout << "Enter a number: ";
+    cin >> num;
+
+    if (num % 2 == 0)
+    {
+        cout << "Even Number";
+    }
+    else
+    {
+        cout << "Odd Number";
+    }
+
+    return 0;
+}
